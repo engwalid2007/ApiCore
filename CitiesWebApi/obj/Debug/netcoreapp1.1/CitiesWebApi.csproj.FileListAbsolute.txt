@@ -1,0 +1,9 @@
+D:\github\Repos\apicore\CitiesWebApi\bin\Debug\netcoreapp1.1\CitiesWebApi.deps.json
+D:\github\Repos\apicore\CitiesWebApi\bin\Debug\netcoreapp1.1\CitiesWebApi.runtimeconfig.json
+D:\github\Repos\apicore\CitiesWebApi\bin\Debug\netcoreapp1.1\CitiesWebApi.runtimeconfig.dev.json
+D:\github\Repos\apicore\CitiesWebApi\bin\Debug\netcoreapp1.1\CitiesWebApi.dll
+D:\github\Repos\apicore\CitiesWebApi\bin\Debug\netcoreapp1.1\CitiesWebApi.pdb
+D:\github\Repos\apicore\CitiesWebApi\obj\Debug\netcoreapp1.1\CitiesWebApi.csprojResolveAssemblyReference.cache
+D:\github\Repos\apicore\CitiesWebApi\obj\Debug\netcoreapp1.1\CitiesWebApi.AssemblyInfo.cs
+D:\github\Repos\apicore\CitiesWebApi\obj\Debug\netcoreapp1.1\CitiesWebApi.dll
+D:\github\Repos\apicore\CitiesWebApi\obj\Debug\netcoreapp1.1\CitiesWebApi.pdb
