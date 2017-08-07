@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,12 @@ namespace CitiesWebApi.Controllers
     [Route("api/cities")]
     public class PointOfInterestController : Controller
     {
+        private ILogger<PointOfInterestController> _logger;
+
+        public PointOfInterestController(ILogger<PointOfInterestController> logger)
+        {
+            _logger = logger;
+        }
         [HttpGet("{cityId}/PointOfintersts")]
         public IActionResult Get(int cityId)
         {
@@ -17,7 +24,7 @@ namespace CitiesWebApi.Controllers
             if (cities == null)
                 return NotFound("No Cities Found");
             if (!cities.Any(c => c.Id == cityId))
-                return NotFound("City is not found");
+                _logger.LogInformation("dddd");
 
             return Ok(cities.FirstOrDefault(c => c.Id == cityId).States);
         }
